@@ -6,7 +6,7 @@ COPY ./package.json .
 # Installer les dépendances
 RUN npm install 
 
-COPY todos-express-sqlite . 
+COPY . . 
 
 EXPOSE 3000
 RUN mkdir -p /var/db && \
