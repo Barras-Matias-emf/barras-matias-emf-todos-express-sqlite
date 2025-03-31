@@ -29,5 +29,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .  # Contexte de build (répertoire courant)
-          push: true  # Active la publication de l'image
+          push: true  # Active la publication de l'image aled
           tags: ghcr.io/todos-express-sqlite:latest  # Tag de l'image

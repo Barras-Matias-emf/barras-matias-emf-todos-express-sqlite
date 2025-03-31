@@ -1,7 +1,7 @@
 FROM node:22-alpine
 
 # Copier uniquement package.json
-COPY ./todos-express-sqlite/package.json . 
+COPY ./package.json . 
 
 # Installer les dépendances
 RUN npm install 
